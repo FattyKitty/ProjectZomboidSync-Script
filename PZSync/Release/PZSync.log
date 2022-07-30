@@ -1,0 +1,10 @@
+﻿  Source.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(69,8): error C3083: filesystem: символ слева от "::" должен представлять тип
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(69,20): error C2039: "remove_all": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : см. объявление "std"
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(69,30): error C3861: remove_all: идентификатор не найден
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(72,7): error C3083: filesystem: символ слева от "::" должен представлять тип
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(72,19): error C2672: "std::copy": не найдена соответствующая перегруженная функция
+C:\Users\tonys\Documents\C++ Practice\PZSync\PZSync\Source.cpp(72,66): error C2780: _OutIt std::copy(_InIt,_InIt,_OutIt): требует аргументов: 3, имеется: 2
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(4205): message : см. объявление "std::copy"

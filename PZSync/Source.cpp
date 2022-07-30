@@ -52,7 +52,7 @@ int main()
 		std::cout << "Invalid input!\n";
 	}
 
-	std::cout << "Please enter the name of PZ GameWorld you want to backup";
+	std::cout << "Please enter the name of PZ GameWorld you want to backup\n";
 	std::cout << "SaveFile name: ";
 	std::cin >> SaveFileName;
 
@@ -64,6 +64,7 @@ int main()
 		return -2;
 	}
 
+	std::cout << "In progress. Please, don't close the console tab";
 	if (stat((SavesFolderPath+"Backup").c_str(), &buffer) == 0)
 	{
 		std::filesystem::remove_all(SavesFolderPath+"Backup");
@@ -71,5 +72,7 @@ int main()
 
 	std::filesystem::copy(SavesFolderPath, SavesFolderPath+ "Backup");
 
+	std::cout << "Done!";
+	system("pause");
 	return 0;
 }
